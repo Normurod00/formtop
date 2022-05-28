@@ -1,0 +1,86 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.data{
+    text-align: center;
+    font-family: 'Inter';
+}
+
+.data .data-text {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.your_data input {
+    width: 277px;
+    height: 59px;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #543FD3;
+    border-radius: 4px;
+    margin: 0px 0px 40px 0px;
+}
+.your_data  span{
+    font-family: 'Inter';
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.item_img{
+    display: none;
+}
+.register {
+    width: 1000px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+.button {
+    width: 277px;
+    height: 59px;
+    position:absolute;
+    top: 100%;
+    left: -9%;
+    background-color: #4200FF;
+    color: white;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    transition: .3s ease;
+    margin-left: 45%;
+}
+
+.button:hover {
+    box-shadow: 0px 2px 8px #686868;
+
+}
+.input img{
+    display: none;
+}
+.input p{
+    display: none;
+}
+.valid {
+    border: 3px solid green !important;
+}
+.invalid {
+    border: 3px solid red !important;
+}
+.inp-lab{
+    display: flex;
+}
+.inp-lab img{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.inp-lab label{
+    margin-top: 60px;
+    margin-left: -130%;
+}
